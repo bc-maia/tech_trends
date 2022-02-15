@@ -16,7 +16,7 @@ spec:
         app: techtrends
     spec:
       containers:
-        - image: {{ TestFunc (printf "%s:%s" .Values.image.repository .Values.image.tag) }}
+        - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
           imagePullPolicy: {{.Values.image.pullPolicy}}
           name: techtrends
           resources:
