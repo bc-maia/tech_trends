@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: { { .Values.namespace.name } }
   name: techtrends
   labels:
     app: techtrends
+  namespace: { { .Values.namespace.name } }
 spec:
   replicas: { { .Values.replicaCount } }
   selector:
