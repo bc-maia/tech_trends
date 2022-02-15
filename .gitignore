@@ -1,7 +1,3 @@
-
-# Ignore dynaconf secret files
-.secrets.*
-
 ### Flask ###
 instance/*
 !instance/.gitignore
