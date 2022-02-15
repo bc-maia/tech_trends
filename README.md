@@ -13,3 +13,9 @@ To run this application there are 2 steps required:
 
 - [Dockerfile](./Dockerfile)
 - [Docker Commands](./docker_commands.md)
+
+## Github Actions
+
+This project uses [Github Actions](https://docs.github.com/en/actions/publishing-packages/publishing-docker-images) to deploy it's image to dockerhub.
+
+- Check [techtrends-dockerhub.yml](./.github/workflows/techtrends-dockerhub.yml)
