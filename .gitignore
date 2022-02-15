@@ -1,3 +1,6 @@
+.vagrant
+.vagrant/*
+
 ### Flask ###
 instance/*
 !instance/.gitignore
