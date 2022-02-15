@@ -6,4 +6,5 @@ RUN pip install -r requirements.txt
 RUN python init_db.py
 
 COPY . .
+EXPOSE 3111
 ENTRYPOINT [ "python", "app.py" ]
