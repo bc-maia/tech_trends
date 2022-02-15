@@ -2,4 +2,3 @@ Flask
 werkzeug
 Black
 Flake8
-Dynaconf
